@@ -15,7 +15,7 @@ Benchmarked and extendable methods to find 'all' keys for functions of two varia
 ( plaintext XOR key ) % 29 = cipher text 
 
 For a given text file of english cribs and a corresponding cipher-text find 'all' keys for a given encryption function of two variables f(plaintext,key).
-Example functions for arithmetic and xor are given, the design pattern mean sits easy to add further functions with little effort.
+Example functions for arithmetic and xor are given, the design pattern means its easy to add further functions with little effort.
 'All' keys means considering: all possible interrupters, gematria rotations and defined plaintext rune transpositions.
 To generate crib-lists 
 '[Liber-Primus-Crib-Assist](https://github.com/mortlach/Liber-Primus-Crib-Assist)'
@@ -45,7 +45,7 @@ Methods called during text ranking. See '[Is It Runeglish](https://github.com/mo
 ### key_generator.py
 Class that handles looping over all possible variations of the main method (gematria rotations, transposition, interrupters, etc. )
 More transpositions can be added as needed.
-To best follow procedure see test_solve function
+To best follow procedure see test_solve function.
 
 ### cryption_methods_of_2_variables.py
 General method for encryption/decryption of 'any' function of two variables.
